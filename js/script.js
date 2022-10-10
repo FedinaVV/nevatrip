@@ -1,6 +1,6 @@
 function readMore() {
-    let moreBtn = document.getElementById('more-btn');
-    let moreTime = document.querySelectorAll('.item-times__time-hidden');
+    const moreBtn = document.getElementById('more-btn');
+    const moreTime = document.querySelectorAll('.item-times__time-hidden');
 
 
     for (let i = 0; i < moreTime.length; i++) {
