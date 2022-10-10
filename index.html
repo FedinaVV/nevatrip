@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Nevatrip</title>
+</head>
+<body>
+
+<main class="wrapper-carts">
+    <div class="container">
+        <div class="wrapper-carts__item-cart item-cart">
+            <div class="item-cart__img item-cart__img--newYellow">
+                <img src="./img/sankt-peterburg.png" alt="Image" class="item-cart__img-place">
+            </div>
+            <div class="item-cart__desk-img item-cart__desk-img--blue">
+                <img src="./img/desk/img-1.png" alt="Image" class="item-cart__desk-img-place">
+            </div>
+            <div class="item-cart__info">
+
+                <h2 class="item-cart__heading-desk">
+                    Обзорная экскурсия по рекам и каналам <br> с остановками Hop on Hop Off 2020
+                </h2>
+
+                <div class="item-cart__duration duration">
+                    <img src="./img/clock.svg" alt="Image-clock" class="duration__clock">
+                    <p class="duration__time">
+                        2 часа
+                    </p>
+                </div>
+                <div class="item-cart__action">
+                    <p>
+                        АКЦИЯ - Обзорная экскурсия по рекам и каналам с остановками Hop on Hop Off 2019
+                    </p>
+                </div>
+                <ul class="item-cart__list-attractions list-attractions">
+                    <li class="list-attractions__item">
+                        <img src="./img/check-mark.svg" alt="Check-mark">
+                        <p>Билет на целый день</p>
+                    </li>
+                    <li class="list-attractions__item">
+                        <img src="./img/check-mark.svg" alt="Check-mark">
+                        <p>Неограниченное число катаний</p>
+                    </li>
+                    <li class="list-attractions__item">
+                        <img src="./img/check-mark.svg" alt="Check-mark">
+                        <p>6 остановок у главных достопримечательностей</p>
+                    </li>
+                    <li class="list-attractions__item item-times">
+                        <img src="./img/check-mark.svg" alt="Check-mark">
+                        <p>Ближайший рейс сегодня</p>
+                        <ul class="item-times__list">
+                            <li class="item-times__time">12:00</li>
+                            <li class="item-times__time">12:00</li>
+                            <li class="item-times__time">12:00</li>
+                            <li class="item-times__time">12:00</li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="item-cart__footer-cart footer-cart">
+                    <div class="footer-cart__cost">
+                        <p class="footer-cart__coast-lower">900 ₽</p>
+                        <p class="footer-cart__coast-higher">1200 р на причале</p>
+                    </div>
+                    <a href="#" class="footer-cart__btn-more">Подробнее</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper-carts__item-cart">
+            <div class="item-cart__img item-cart__img--newPurple">
+                <img src="./img/sankt-peterburg.png" alt="Image" class="item-cart__img-place item-cart__img-place--h">
+            </div>
+
+            <div class="item-cart__desk-img item-cart__desk-img--yellow">
+                <img src="./img/desk/img-2.png" alt="Image" class="item-cart__desk-img-place">
+            </div>
+
+            <div class="item-cart__info">
+
+                <h2 class="item-cart__heading-desk">
+                    Обзорная экскурсия по рекам и каналам <br> с остановками Hop on Hop Off 2020
+                </h2>
+
+                <div class="item-cart__duration duration">
+                    <img src="./img/clock.svg" alt="Image-clock" class="duration__clock">
+                    <p class="duration__time">
+                        2 часа
+                    </p>
+                </div>
+                <div class="item-cart__action">
+                    <p>
+                        АКЦИЯ - Обзорная экскурсия по рекам и каналам с остановками Hop on Hop Off 2019
+                    </p>
+                </div>
+                <ul class="item-cart__list-attractions list-attractions">
+                    <li class="list-attractions__item">
+                        <img src="./img/check-mark.svg" alt="Check-mark">
+                        <p>Билет на целый день</p>
+                    </li>
+                    <li class="list-attractions__item">
+                        <img src="./img/check-mark.svg" alt="Check-mark">
+                        <p>Неограниченное число катаний</p>
+                    </li>
+                    <li class="list-attractions__item">
+                        <img src="./img/check-mark.svg" alt="Check-mark">
+                        <p>6 остановок у главных достопримечательностей</p>
+                    </li>
+                    <li class="list-attractions__item item-times">
+                        <img src="./img/check-mark.svg" alt="Check-mark">
+                        <p>Ближайший рейс сегодня</p>
+                        <ul class="item-times__list">
+                            <li class="item-times__time">12:00</li>
+                            <li class="item-times__time">12:00</li>
+                            <li class="item-times__time">12:00</li>
+                            <li id="more-btn" class="item-times__time item-times__time-more">
+                                <button onclick="readMore()">ещё...</button>
+                            </li>
+                            <li class="item-times__time item-times__time-hidden">12:00</li>
+                            <li class="item-times__time item-times__time-hidden">12:00</li>
+                            <li class="item-times__time item-times__time-hidden">12:00</li>
+                            <li class="item-times__time item-times__time-hidden">12:00</li>
+                            <li class="item-times__time item-times__time-hidden">12:00</li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="item-cart__footer-cart footer-cart">
+                    <div class="footer-cart__cost">
+                        <p class="footer-cart__coast-lower">2900 ₽</p>
+                        <p class="footer-cart__coast-higher footer-cart__coast-higher-lh">1200 р на причале
+                            dmfklsfsdfl</p>
+                    </div>
+                    <a href="#" class="footer-cart__btn-more footer-cart__btn-more--br">Подробнее</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper-carts__item-cart wrapper-carts__item-cart--desc">
+            <div class="item-cart__img item-cart__img--newPurple">
+                <img src="./img/sankt-peterburg.png" alt="Image" class="item-cart__img-place item-cart__img-place--h">
+            </div>
+
+            <div class="item-cart__desk-img">
+                <img src="./img/desk/img-3.png" alt="Image" class="item-cart__desk-img-place">
+            </div>
+
+            <div class="item-cart__info">
+
+                <h2 class="item-cart__heading-desk">
+                    Обзорная экскурсия по рекам и каналам <br> с остановками Hop on Hop Off 2020
+                </h2>
+
+                <div class="item-cart__duration duration">
+                    <img src="./img/clock.svg" alt="Image-clock" class="duration__clock">
+                    <p class="duration__time">
+                        2 часа
+                    </p>
+                </div>
+                <div class="item-cart__action">
+                    <p>
+                        АКЦИЯ - Обзорная экскурсия по рекам и каналам с остановками Hop on Hop Off 2019
+                    </p>
+                </div>
+                <ul class="item-cart__list-attractions list-attractions">
+                    <li class="list-attractions__item">
+                        <img src="./img/check-mark.svg" alt="Check-mark">
+                        <p>Билет на целый день</p>
+                    </li>
+                    <li class="list-attractions__item">
+                        <img src="./img/check-mark.svg" alt="Check-mark">
+                        <p>Неограниченное число катаний</p>
+                    </li>
+                    <li class="list-attractions__item">
+                        <img src="./img/check-mark.svg" alt="Check-mark">
+                        <p>6 остановок у главных достопримечательностей</p>
+                    </li>
+                    <li class="list-attractions__item item-times">
+                        <img src="./img/check-mark.svg" alt="Check-mark">
+                        <p>Ближайший рейс сегодня</p>
+                        <ul class="item-times__list">
+                            <li class="item-times__time">12:00</li>
+                            <li class="item-times__time">12:00</li>
+                            <li class="item-times__time">12:00</li>
+                            <li class="item-times__time">12:00</li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="item-cart__footer-cart footer-cart">
+                    <div class="footer-cart__cost">
+                        <p class="footer-cart__coast-lower">900 ₽</p>
+                        <p class="footer-cart__coast-higher">1200 р на причале</p>
+                    </div>
+                    <a href="#" class="footer-cart__btn-more">Подробнее</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</main>
+<script src="./js/script.js"></script>
+</body>
+</html>
